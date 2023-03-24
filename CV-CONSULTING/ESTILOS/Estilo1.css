@@ -106,18 +106,19 @@ footer{
 
 
     footer div a
-text-decoration: none;
+text-decoration:none;
 color: rgb(255, 255, 255);
 }
 
 /* FORMULARIO  */
 
-{.
+ .box{
     margin:0;
     padding:0;
     box-sizing:border-box;
     font-family:'Mulish', sans-serif;
 }
+
 
 /* CUERPO FORULARIO  */
 body {
