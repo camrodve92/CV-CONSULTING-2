@@ -29,9 +29,10 @@ nav ul li:hover{
 
 .img-logo{
 
-    width: 180px; /* ancho */
+    width: 250px; /* ancho */
     padding: 20px;
-    padding-left: 5%;
+    padding-left: 3%;
+    height: 250px;
 }
 
 
