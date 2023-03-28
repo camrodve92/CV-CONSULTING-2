@@ -1,12 +1,11 @@
 body{
     font-family: 'Mulish', sans-serif; /* FUENTE */
-max-width: 900px; /* alt + shift + a -- Ancho maximo */
-margin: 0 auto; /* margen */
+    background-color: aliceblue;
 }
 
 nav{
-    width: 99%;/* Ancho */
-height: auto;
+width: 100%;/* Ancho */
+height: 320px;
 background-color: rgb(142, 226, 226); /* color de fondo */
 }
 
@@ -14,27 +13,30 @@ nav ul li {
     list-style-type: none;
     display: inline-block;
     transition: 0.8s all;
-    padding: 18px 20px;
+    padding: 12px 10px;
+
 }
 
 image
-{ width: 150px;} 
+{ 
+    width: 150px;
+} 
 
  .container{
     text-align: center;
  }
 
 nav ul li:hover{
-    background-color:rgb(113, 209, 209);
+    background-color:aliceblue;
 }
 
 .img-logo{
 
-    width: 180px; /* ancho */
+    width: 250px; /* ancho */
     padding: 20px;
-    padding-left: 5%;
+    padding-left: 3%;
+    height: 250px;
 }
-
 
 nav ul{
     padding-top: 90px; /*relleno superior */
@@ -44,70 +46,6 @@ nav ul{
 nav ul li a{
     text-decoration: none; /*decoracion de texto ninguno */
     color: black; /*color de letra */
-}
-
-
-
- /* FORMULARIO TERMINA */
-
-img{
-    max-width: 100%;
-}
-
-/* estilos seccion 1 */
-
-.seccion1{
-    background-color: rgb(113, 209, 209)white;
-}
-
-.video{
-    width: 55%;
-    padding: 7px;
-}
-
-.texto{
-    width:30%;
-padding: 46px;
-vertical-align: top;
-text-align: center;
-}
-
-article{
-    padding: 30px;
-    background-color: rgb(154, 233, 233);
-}
-
-article h2{
-    border-bottom: 1px solid black;
-
-}
-
-.texto, .video{
-    display: inline-block;
-}
-
-/* ARTICLES */
-
-section{
-    background-color: rgb(154, 233, 233);
-    padding: 15px;
-}
-section h2{
-    border-bottom: 1px solid black;
-    text-align: center;
-}
-
-footer{
-    background-color: rgb(154, 233, 233);
-    color: black;
-    line-height: 30px;
-    text-align: center;
-    padding: 45px;
-
-
-    footer div a
-text-decoration:none;
-color: rgb(255, 255, 255);
 }
 
 /* FORMULARIO  */
